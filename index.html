@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qotiph Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/Logo.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Qotiph Albyayadh</h1>
+
+            <p class="title" style="font-size: 15px">
+              Cross-Platform Developer
+            </p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:khaledbyayadh@gmail.com" class="contact-link"
+                  >khaledbyayadh@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+962782035883" class="contact-link">0782035883</a>
+              </div>
+            </li>
+
+            <!-- <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">23/8/2004</time>
+              </div>
+            </li> -->
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Jordan, Amman</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/qotiph10" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/qotiph-albyayadh/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/qoq_09/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I’m Qotiph Albyayadh, a software engineering student at Mut'ah
+              University with an interest in cross-platform development. I enjoy
+              solving problems and applying new ideas to real-world challenges.
+              I’m a quick learner and adaptable, and I’m looking for
+              opportunities to grow and put my skills into practice.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/cross-platform-icon.png"
+                    alt="cross-platform-icon"
+                    width="70"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Cross-Platform Development
+                  </h4>
+
+                  <p class="service-item-text">
+                    Building apps that run seamlessly on both Android and iOS
+                    from a single codebase.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/web-development-icon.png"
+                    alt="Web development icon"
+                    width="70"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Mutah University</h4>
+
+                <span>2022 — 2026</span>
+
+                <p class="timeline-text">Bachelor of Software Engineering</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">High School</h4>
+
+                <span>2022</span>
+
+                <p class="timeline-text">
+                  (Scientific Stream) Graduated with honors | GPA: 88.5%
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Competitive Programming Contestant
+                </h4>
+
+                <span>2022 — Present</span>
+
+                <p class="timeline-text">
+                  - Ranked Top 10% nationally in ICPC Jordan (2023: #32, 2024:
+                  #33)
+                  <br />- Achieved #22 nationally in Robbing Balloons 2 Contest
+                  (2024) <br />- Participated in IEEEXtreme 18.0 Programming
+                  Competition<br />
+                  - Three-time consecutive #1 ranked team at Mutah University
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Problem Solving Team Leader
+                </h4>
+
+                <span>2023 — Present</span>
+
+                <p class="timeline-text">
+                  - Led university's top competitive programming team <br />-
+                  Developed optimized algorithms for contest challenges <br />-
+                  Mentored junior students in data structures and competition
+                  strategies
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Web development (Mutah Guide)
+                </h4>
+
+                <span>2023</span>
+
+                <p class="timeline-text">
+                  - Designed and developed a PHP-based web platform to assist
+                  incoming students <br />
+                  - Collected and organized university resources from 20+
+                  faculty members <br />- Reduced freshman orientation inquiries
+                  by ~40%
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+            <ul class="skills-list content-card" style="padding: 18px">
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >C++</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >Java</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >JavaScript</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >PHP</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >TypeScript</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >React.js</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >SASS</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >Spring Boot</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >CSS</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >HTML</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >MySQL</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >Visual Basic.NET</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >Problem Solving</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >Team Leadership</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >Algorithms</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >Data Structures</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >OOP</span
+                >
+              </li>
+              <li class="skills-item">
+                <span
+                  class="skill-badge"
+                  style="font-size: 0.85em; padding: 6px 14px"
+                  >Responsive Design</span
+                >
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="https://github.com/qotiph10/MovieNest">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Movie-Nest.png"
+                      alt="web page for serching movies"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">web page</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2025-02-20">20/02/2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Movie Nest</h3>
+
+                    <p class="blog-text">
+                      application built to help users search for movies, view
+                      detailed information about them, and filter results based
+                      on various criteria.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="blog-post-item">
+                <a href="https://github.com/qotiph10/SnakeGame">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/Snake-game.png"
+                      alt="simple snake game"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">web page</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-08-23">02/08/2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Snake game</h3>
+
+                    <p class="blog-text">
+                      This project brings back the nostalgia of the iconic game
+                      from the early days of mobile phones, now playable in your
+                      browser.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="blog-post-item">
+                <a href="https://github.com/qotiph10/secret-dish">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/secret-dish.png"
+                      alt="sectect dish game"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">web page</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2025-01-10">10/01/2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Food Guessing Game</h3>
+
+                    <p class="blog-text">
+                      This is a fun and interactive game where you guess the
+                      name of a food based on its features. The game includes
+                      dishes from all over the world, including Middle Eastern
+                      favorites, and challenges your knowledge of global
+                      cuisine.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/mutah-guide.png"
+                      alt="mutah guide"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">web page</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-07-14">14/07/2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Mutah Guide</h3>
+
+                    <p class="blog-text">
+                      An application designed to help students find answers to
+                      their questions, access study materials, and ask for
+                      academic assistance.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424832.39429348207!2d35.617978291426255!3d31.83533537056732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151b5fb85d7981af%3A0x631c30c0f8dc65e8!2sAmman!5e1!3m2!1sen!2sjo!4v1747382536530!5m2!1sen!2sjo"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form
+              action="https://formspree.io/f/mjkwlrpj"
+              class="form"
+              data-form
+              method="POST"
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
