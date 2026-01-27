@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050812" />
     <title>Qotiph Portfolio</title>
 
     <!--
@@ -32,6 +33,7 @@
   </head>
 
   <body>
+    <canvas class="bg-canvas" id="bg-canvas" aria-hidden="true"></canvas>
     <!--
     - #MAIN
   -->
@@ -54,7 +56,7 @@
           <div class="info-content">
             <h1 class="name" title="Richard hanrick">Qotiph Albyayadh</h1>
 
-            <p class="title" style="font-size: 15px">Software Engineer</p>
+            <p class="title">Software Engineer</p>
           </div>
 
           <button class="info_more-btn" data-sidebar-btn>
@@ -285,7 +287,7 @@
                 <span>2022 — 2026</span>
 
                 <p class="timeline-text">
-                  Bachelor's degree, Software Engineering
+                  Bachelor's degree, Software Engineering | GPA:88.90%
                 </p>
               </li>
 
@@ -390,181 +392,81 @@
 
           <section class="skill">
             <h3 class="h3 skills-title">My skills</h3>
-            <ul class="skills-list content-card" style="padding: 18px">
+            <ul class="skills-list content-card">
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >C++</span
-                >
+                <span class="skill-badge">C++</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >Java</span
-                >
+                <span class="skill-badge">Java</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >C#</span
-                >
+                <span class="skill-badge">C#</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >JavaScript</span
-                >
+                <span class="skill-badge">JavaScript</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >PHP</span
-                >
+                <span class="skill-badge">PHP</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >TypeScript</span
-                >
+                <span class="skill-badge">TypeScript</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >React.js</span
-                >
+                <span class="skill-badge">React.js</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >SASS</span
-                >
+                <span class="skill-badge">SASS</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >Spring Boot</span
-                >
+                <span class="skill-badge">Spring Boot</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >.NET / ASP.NET</span
-                >
+                <span class="skill-badge">.NET / ASP.NET</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >SQL</span
-                >
+                <span class="skill-badge">SQL</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >CSS</span
-                >
+                <span class="skill-badge">CSS</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >HTML</span
-                >
+                <span class="skill-badge">HTML</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >MySQL</span
-                >
+                <span class="skill-badge">MySQL</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >SQL Server</span
-                >
+                <span class="skill-badge">SQL Server</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >Visual Basic.NET</span
-                >
+                <span class="skill-badge">Visual Basic.NET</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >Git / GitHub</span
-                >
+                <span class="skill-badge">Git / GitHub</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >Postman</span
-                >
+                <span class="skill-badge">Postman</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >Problem Solving</span
-                >
+                <span class="skill-badge">Problem Solving</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >Team Leadership</span
-                >
+                <span class="skill-badge">Team Leadership</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >Algorithms</span
-                >
+                <span class="skill-badge">Algorithms</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >Data Structures</span
-                >
+                <span class="skill-badge">Data Structures</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >OOP</span
-                >
+                <span class="skill-badge">OOP</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >RESTful API Design</span
-                >
+                <span class="skill-badge">RESTful API Design</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >Responsive Design</span
-                >
+                <span class="skill-badge">Responsive Design</span>
               </li>
             </ul>
           </section>
@@ -572,20 +474,12 @@
           <section class="skill">
             <h3 class="h3 skills-title">Languages</h3>
 
-            <ul class="skills-list content-card" style="padding: 18px">
+            <ul class="skills-list content-card">
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >Arabic — Native</span
-                >
+                <span class="skill-badge">Arabic — Native</span>
               </li>
               <li class="skills-item">
-                <span
-                  class="skill-badge"
-                  style="font-size: 0.85em; padding: 6px 14px"
-                  >English — Professional</span
-                >
+                <span class="skill-badge">English — Professional</span>
               </li>
             </ul>
           </section>
